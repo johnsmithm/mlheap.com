@@ -1,0 +1,372 @@
+<!--allrecords--><div id="allrecords" data-tilda-export="yes" class="t-records" data-hook="blocks-collection-content-node" data-tilda-project-id="3954701" data-tilda-page-id="18781105" data-tilda-formskey="ee476770ee9d855b5902a67fbf75a79b" data-tilda-lazy="yes" ><!--header--><header id="t-header" class="t-records" data-hook="blocks-collection-content-node" data-tilda-project-id="3954701" data-tilda-page-id="18776548" data-tilda-formskey="ee476770ee9d855b5902a67fbf75a79b" data-tilda-lazy="yes" ><div id="rec303274648" class="r t-rec" style=" " data-animationappear="off" data-record-type="466" ><!-- T466 --><div id="nav303274648marker"></div><div id="nav303274648" class="t466 t466__positionstatic" data-menu="yes" data-appearoffset="" style=""><div class="t466__container"><div class="t466__container__bg t466__container__bg_main" style="background-color: rgba(0,0,0,1); " data-bgcolor-hex="#000000" data-bgcolor-rgba="rgba(0,0,0,1)" data-bgopacity="1" data-menu-shadow="0px 1px 3px rgba(0,0,0,0.)"></div><div class="t466__item"><a class="t466__logo" href="/" style="color:#ffffff;"><div field="title" class="t-name t-descr_xxs" style="color:#ffffff;">MLHEAP</div></a></div><div class="t466__item t466__menu"><a class="t-name t-descr_xxs t-menu__link-item" href="https://calendly.com/aiconsultant/15min?month=2021-04" style="color:#ffffff;font-weight:600;" data-menu-item-number="1">Book a free consultation</a></div><div class="t466__item t466__menu"><a class="t-name t-descr_xxs t-menu__link-item" href="/news" style="color:#ffffff;font-weight:600;" data-menu-item-number="2">Newsletter</a></div><div class="t466__item t466__menu"><a class="t-name t-descr_xxs t-menu__link-item" href="/#rec496530810" style="color:#ffffff;font-weight:600;" data-menu-item-number="3">Services</a></div><button type="button" 
+class="t-menuburger t-menuburger_first t-menuburger__small" 
+aria-label="Navigation menu" 
+aria-expanded="false"><span style="background-color:#000000;"></span><span style="background-color:#000000;"></span><span style="background-color:#000000;"></span><span style="background-color:#000000;"></span></button><script>function t_menuburger_init(recid) {
+var rec = document.querySelector('#rec' + recid);
+if (!rec) return;
+var burger = rec.querySelector('.t-menuburger');
+if (!burger) return;
+var isSecondStyle = burger.classList.contains('t-menuburger_second');
+if (isSecondStyle && !window.isMobile && !('ontouchend' in document)) {
+burger.addEventListener('mouseenter', function() {
+if (burger.classList.contains('t-menuburger-opened')) return;
+burger.classList.remove('t-menuburger-unhovered');
+burger.classList.add('t-menuburger-hovered');
+});
+burger.addEventListener('mouseleave', function() {
+if (burger.classList.contains('t-menuburger-opened')) return;
+burger.classList.remove('t-menuburger-hovered');
+burger.classList.add('t-menuburger-unhovered');
+setTimeout(function() {
+burger.classList.remove('t-menuburger-unhovered');
+}, 300);
+});
+}
+burger.addEventListener('click', function() {
+if (!burger.closest('.tmenu-mobile') &&
+!burger.closest('.t450__burger_container') &&
+!burger.closest('.t466__container') &&
+!burger.closest('.t204__burger') &&
+!burger.closest('.t199__js__menu-toggler')) {
+burger.classList.toggle('t-menuburger-opened');
+burger.classList.remove('t-menuburger-unhovered');
+}
+});
+var menu = rec.querySelector('[data-menu="yes"]');
+if (!menu) return;
+var menuLinks = menu.querySelectorAll('.t-menu__link-item');
+var submenuClassList = ['t978__menu-link_hook', 't978__tm-link', 't966__tm-link', 't794__tm-link', 't-menusub__target-link'];
+Array.prototype.forEach.call(menuLinks, function (link) {
+link.addEventListener('click', function () {
+var isSubmenuHook = submenuClassList.some(function (submenuClass) {
+return link.classList.contains(submenuClass);
+});
+if (isSubmenuHook) return;
+burger.classList.remove('t-menuburger-opened');
+});
+});
+menu.addEventListener('clickedAnchorInTooltipMenu', function () {
+burger.classList.remove('t-menuburger-opened');
+});
+}
+t_onReady(function() {
+t_onFuncLoad('t_menuburger_init', function(){t_menuburger_init('303274648');});
+});</script><style>.t-menuburger {
+position: relative;
+flex-shrink: 0;
+width: 28px;
+height: 20px;
+padding: 0;
+border: none;
+background-color: transparent;
+outline: none;
+-webkit-transform: rotate(0deg);
+transform: rotate(0deg);
+transition: transform .5s ease-in-out;
+cursor: pointer;
+z-index: 999;
+}
+/*---menu burger lines---*/
+.t-menuburger span {
+display: block;
+position: absolute;
+width: 100%;
+opacity: 1;
+left: 0;
+-webkit-transform: rotate(0deg);
+transform: rotate(0deg);
+transition: .25s ease-in-out;
+height: 3px;
+background-color: #000;
+}
+.t-menuburger span:nth-child(1) {
+top: 0px;
+}
+.t-menuburger span:nth-child(2),
+.t-menuburger span:nth-child(3) {
+top: 8px;
+}
+.t-menuburger span:nth-child(4) {
+top: 16px;
+}
+/*menu burger big*/
+.t-menuburger__big {
+width: 42px;
+height: 32px;
+}
+.t-menuburger__big span {
+height: 5px;
+}
+.t-menuburger__big span:nth-child(2),
+.t-menuburger__big span:nth-child(3) {
+top: 13px;
+}
+.t-menuburger__big span:nth-child(4) {
+top: 26px;
+}
+/*menu burger small*/
+.t-menuburger__small {
+width: 22px;
+height: 14px;
+}
+.t-menuburger__small span {
+height: 2px;
+}
+.t-menuburger__small span:nth-child(2),
+.t-menuburger__small span:nth-child(3) {
+top: 6px;
+}
+.t-menuburger__small span:nth-child(4) {
+top: 12px;
+}
+/*menu burger opened*/
+.t-menuburger-opened span:nth-child(1) {
+top: 8px;
+width: 0%;
+left: 50%;
+}
+.t-menuburger-opened span:nth-child(2) {
+-webkit-transform: rotate(45deg);
+transform: rotate(45deg);
+}
+.t-menuburger-opened span:nth-child(3) {
+-webkit-transform: rotate(-45deg);
+transform: rotate(-45deg);
+}
+.t-menuburger-opened span:nth-child(4) {
+top: 8px;
+width: 0%;
+left: 50%;
+}
+.t-menuburger-opened.t-menuburger__big span:nth-child(1) {
+top: 6px;
+}
+.t-menuburger-opened.t-menuburger__big span:nth-child(4) {
+top: 18px;
+}
+.t-menuburger-opened.t-menuburger__small span:nth-child(1),
+.t-menuburger-opened.t-menuburger__small span:nth-child(4) {
+top: 6px;
+}
+/*---menu burger first style---*/
+@media (hover), (min-width:0\0) {
+.t-menuburger_first:hover span:nth-child(1) {
+transform: translateY(1px);
+}
+.t-menuburger_first:hover span:nth-child(4) {
+transform: translateY(-1px);
+}
+.t-menuburger_first.t-menuburger__big:hover span:nth-child(1) {
+transform: translateY(3px);
+}
+.t-menuburger_first.t-menuburger__big:hover span:nth-child(4) {
+transform: translateY(-3px);
+}
+}
+/*---menu burger second style---*/
+.t-menuburger_second span:nth-child(2),
+.t-menuburger_second span:nth-child(3) {
+width: 80%;
+left: 20%;
+right: 0;
+}
+@media (hover), (min-width:0\0) {
+.t-menuburger_second.t-menuburger-hovered span:nth-child(2),
+.t-menuburger_second.t-menuburger-hovered span:nth-child(3) {
+animation: t-menuburger-anim 0.3s ease-out normal forwards;
+}
+.t-menuburger_second.t-menuburger-unhovered span:nth-child(2),
+.t-menuburger_second.t-menuburger-unhovered span:nth-child(3) {
+animation: t-menuburger-anim2 0.3s ease-out normal forwards;
+}
+}
+.t-menuburger_second.t-menuburger-opened span:nth-child(2),
+.t-menuburger_second.t-menuburger-opened span:nth-child(3){
+left: 0;
+right: 0;
+width: 100%!important;
+}
+/*---menu burger third style---*/
+.t-menuburger_third span:nth-child(4) {
+width: 70%;
+left: unset;
+right: 0;
+}
+@media (hover), (min-width:0\0) {
+.t-menuburger_third:not(.t-menuburger-opened):hover span:nth-child(4) {
+width: 100%;
+}
+}
+.t-menuburger_third.t-menuburger-opened span:nth-child(4) {
+width: 0!important;
+right: 50%;
+}
+/*---menu burger fourth style---*/
+.t-menuburger_fourth {
+height: 12px;
+}
+.t-menuburger_fourth.t-menuburger__small {
+height: 8px;
+}
+.t-menuburger_fourth.t-menuburger__big {
+height: 18px;
+}
+.t-menuburger_fourth span:nth-child(2),
+.t-menuburger_fourth span:nth-child(3) {
+top: 4px;
+opacity: 0;
+}
+.t-menuburger_fourth span:nth-child(4) {
+top: 8px;
+}
+.t-menuburger_fourth.t-menuburger__small span:nth-child(2),
+.t-menuburger_fourth.t-menuburger__small span:nth-child(3) {
+top: 3px;
+}
+.t-menuburger_fourth.t-menuburger__small span:nth-child(4) {
+top: 6px;
+}
+.t-menuburger_fourth.t-menuburger__small span:nth-child(2),
+.t-menuburger_fourth.t-menuburger__small span:nth-child(3) {
+top: 3px;
+}
+.t-menuburger_fourth.t-menuburger__small span:nth-child(4) {
+top: 6px;
+}
+.t-menuburger_fourth.t-menuburger__big span:nth-child(2),
+.t-menuburger_fourth.t-menuburger__big span:nth-child(3) {
+top: 6px;
+}
+.t-menuburger_fourth.t-menuburger__big span:nth-child(4) {
+top: 12px;
+}
+@media (hover), (min-width:0\0) {
+.t-menuburger_fourth:not(.t-menuburger-opened):hover span:nth-child(1) {
+transform: translateY(1px);
+}
+.t-menuburger_fourth:not(.t-menuburger-opened):hover span:nth-child(4) {
+transform: translateY(-1px);
+}
+.t-menuburger_fourth.t-menuburger__big:not(.t-menuburger-opened):hover span:nth-child(1) {
+transform: translateY(3px);
+}
+.t-menuburger_fourth.t-menuburger__big:not(.t-menuburger-opened):hover span:nth-child(4) {
+transform: translateY(-3px);
+}
+}
+.t-menuburger_fourth.t-menuburger-opened span:nth-child(1),
+.t-menuburger_fourth.t-menuburger-opened span:nth-child(4) {
+top: 4px;
+}
+.t-menuburger_fourth.t-menuburger-opened span:nth-child(2),
+.t-menuburger_fourth.t-menuburger-opened span:nth-child(3) {
+opacity: 1;
+}
+/*---menu burger animations---*/
+@keyframes t-menuburger-anim {
+0% {
+width: 80%;
+left: 20%;
+right: 0;
+}
+50% {
+width: 100%;
+left: 0;
+right: 0;
+}
+100% {
+width: 80%;
+left: 0;
+right: 20%;
+}
+}
+@keyframes t-menuburger-anim2 {
+0% {
+width: 80%;
+left: 0;
+}
+50% {
+width: 100%;
+right: 0;
+left: 0;
+}
+100% {
+width: 80%;
+left: 20%;
+right: 0;
+}
+}</style> </div><div class="t466__mobile"><div class="t466__container"><div class="t466__container__bg" style="background-color: rgba(0,0,0,1); " data-bgcolor-hex="#000000" data-bgcolor-rgba="rgba(0,0,0,1)" data-bgopacity="1" data-menu-shadow="0px 1px 3px rgba(0,0,0,0.)"></div><div class="t466__item t466__menu"><a class="t-name t-descr_xxs" href="https://calendly.com/aiconsultant/15min?month=2021-04" style="color:#ffffff;font-weight:600;" data-menu-item-number="1">Book a free consultation</a></div><div class="t466__item t466__menu"><a class="t-name t-descr_xxs" href="/news" style="color:#ffffff;font-weight:600;" data-menu-item-number="2">Newsletter</a></div><div class="t466__item t466__menu"><a class="t-name t-descr_xxs" href="/#rec496530810" style="color:#ffffff;font-weight:600;" data-menu-item-number="3">Services</a></div></div></div></div><script>t_onReady(function () {
+var rec = document.querySelector('#rec303274648');
+if (!rec) return;
+var wrapperBlock = rec.querySelector('.t466');
+if (!wrapperBlock) return;
+t_onFuncLoad('t466_initMobileMenu', function () {
+t466_initMobileMenu('303274648');
+});
+rec.setAttribute('data-animationappear', 'off');
+rec.style.opacity = 1;
+});
+t_onReady(function() {
+var rec = document.querySelector("#rec303274648");
+if (!rec) return;
+var wrapperBlock = rec.querySelector(".t466");
+if (!wrapperBlock) return;
+t_onFuncLoad('t_menu__highlightActiveLinks', function () {
+t_menu__highlightActiveLinks('.t466__item a');
+});
+}); </script><style>#rec303274648 .t-menu__link-item{
+}
+@supports (overflow:-webkit-marquee) and (justify-content:inherit)
+{
+#rec303274648 .t-menu__link-item,
+#rec303274648 .t-menu__link-item.t-active {
+opacity: 1 !important;
+}
+}</style></div></header><!--/header--><div id="rec303339285" class="r t-rec t-rec_pt_165 t-rec_pb_0" style="padding-top:165px;padding-bottom:0px; " data-record-type="255" ><!-- T225 --><div class="t225"><div class="t-container t-align_left"><div class="t-col t-col_8 t-prefix_2"><div class="t225__title t-title t-title_md" field="title">Accidents location extraction from news articles.</div> </div></div></div><style> #rec303339285 .t225__uptitle { color: #b3b3b3; text-transform: uppercase; }</style></div><div id="rec303339286" class="r t-rec t-rec_pt_60 t-rec_pb_0" style="padding-top:60px;padding-bottom:0px; " data-record-type="127" ><!-- T119 --><div class="t119"><div class="t-container "><div class="t-col t-col_8 t-prefix_2"><div class="t119__preface t-descr" field="text">Our NLP models extracts accident locations from news text from a non english language, which is useful to evaluate the traffic conditions and road safety by aggregating accident reports.</div></div></div></div><style> #rec303339286 .t119__preface { opacity: 0.7; }</style></div><div id="rec303339287" class="r t-rec t-rec_pt_30 t-rec_pb_30" style="padding-top:30px;padding-bottom:30px; " data-record-type="40" ><!-- T026 --><div class="t026"><div class="t-container t-align_left"><div class="t-col t-col_8 t-prefix_2"> <div class="t026__title t-text" field="title"><strong style="font-size: 24px;">Problem</strong></div><div class="t026__descr t-text t-text_xs" field="subtitle"></div></div></div></div><style> #rec303339287 .t026__descr { text-transform: uppercase; }</style></div><div id="rec303339288" class="r t-rec t-rec_pt_45 t-rec_pb_60" style="padding-top:45px;padding-bottom:60px; " data-record-type="106" ><!-- T004 --><div class="t004"><div class="t-container "><div class="t-col t-col_8 t-prefix_2"><div field="text" class="t-text t-text_md ">A GIS services company wanted to create a national interactive map of accidents, they had a person which read the articles with certain keywords and added manually geolocation data in a digital platform + information about the accidents like the number of dead people, the vehicle type: motorbike, bus, car. The responsible person worked just 7 days a week from 9am to 5pm, and many accidents happen in the weekend and during the night.</div></div></div></div></div><div id="rec303339289" class="r t-rec t-rec_pt_0 t-rec_pb_60" style="padding-top:0px;padding-bottom:60px; " data-record-type="3" ><!-- T107 --><div class="t107"><div class="t-align_center" itemscope itemtype="http://schema.org/ImageObject"><meta itemprop="image" content="images/tild3261-3034-4439-b237-353834646539__accidents.png"> <img class="t-img t-width t107__width t-width_8" 
+src="images/tild3261-3034-4439-b237-353834646539__-__empty__accidents.png" data-original="images/tild3261-3034-4439-b237-353834646539__accidents.png" 
+imgfield="img"
+alt=""></div></div></div><div id="rec303339290" class="r t-rec t-rec_pt_30 t-rec_pb_30" style="padding-top:30px;padding-bottom:30px; " data-record-type="40" ><!-- T026 --><div class="t026"><div class="t-container t-align_left"><div class="t-col t-col_8 t-prefix_2"> <div class="t026__title t-text" field="title"><strong style="font-size: 24px;">Solution</strong></div><div class="t026__descr t-text t-text_xs" field="subtitle"></div></div></div></div><style> #rec303339290 .t026__descr { text-transform: uppercase; }</style></div><div id="rec303339291" class="r t-rec t-rec_pt_0 t-rec_pb_30" style="padding-top:0px;padding-bottom:30px; " data-record-type="106" ><!-- T004 --><div class="t004"><div class="t-container "><div class="t-col t-col_8 t-prefix_2"><div field="text" class="t-text t-text_md ">We created an NLP solution that identifies the location text in the news, then the text is processed with geocoding software, and added to the digital platform automatically. In order to train the model we used 326 labeled news articles and achieved 97% accuracy in identifying the location text in the news article text. We managed to use so little annotated data because of an algorithm called active learning, which succeeded to show what samples from the unlabeled news articles, the model is confused the most and can not identify the location text, and need to be manually labeled.<br /><br /></div></div></div></div></div><!--footer--><footer id="t-footer" class="t-records" data-hook="blocks-collection-content-node" data-tilda-project-id="3954701" data-tilda-page-id="18776572" data-tilda-formskey="ee476770ee9d855b5902a67fbf75a79b" data-tilda-lazy="yes" ><div id="rec496530285" class="r t-rec t-rec_pt_90 t-rec_pb_90" style="padding-top:90px;padding-bottom:90px; " data-record-type="191" ><!-- T142 --><div class="t142"><div class="t-container_100"><div class="t142__wrapone"><div class="t142__wraptwo"><a class="t-btn t142__submit t-btn_md"
+href="https://calendly.com/aiconsultant/15min" target="" 
+style="color:#000000;border:3px solid #000000;" 
+><span class="t142__text">Book a free consultation</span></a></div></div></div></div><script>t_onReady(function () {
+t_onFuncLoad('t142_checkSize', function () {
+t142_checkSize('496530285');
+});
+});
+window.addEventListener('load', function () {
+t_onFuncLoad('t142_checkSize', function () {
+t142_checkSize('496530285');
+});
+});</script></div><div id="rec303275023" class="r t-rec" style="background-color:#111111; " data-animationappear="off" data-record-type="345" data-bg-color="#111111"><!-- T345 --><div class="t345" id="footer_303275023"><div class="t345-wrapper" style="border-top: 1px solid;border-top-color: #292929;"><div class="t345-container t-container"><div class="t345-col t-col t-col_12"><div class="t345-content" style="height:120px"><div class="t345-text__wrapper"><div class="t345-text t-descr t-descr_xxs" style="color:#ffffff;"><span style="font-weight: 600;">© All Rights Reserved. MLHEAP.COM</span></div></div><div class="t345-socials"></div></div></div></div></div></div><script>function checkSize_303275023(){
+var rec = document.querySelector('#footer_303275023');
+if (!rec) return;
+var textContentEl = rec.querySelector('.t345-text');
+var iconsContentEl = rec.querySelector('.t345-socials');
+if (!textContentEl || !iconsContentEl) return;
+var contentWidth = textContentEl.offsetWidth + iconsContentEl.offsetWidth;
+var container = rec.querySelector('.t345-container');
+var containerWidth = container.offsetWidth - 30;
+if (contentWidth > containerWidth && containerWidth > 0) {
+container.classList.add('t345-socials_block');
+}
+else {
+container.classList.remove('t345-socials_block');
+}
+}
+t_onReady(function() {
+t_onFuncLoad('checkSize_303275023', function(){
+checkSize_303275023();
+window.addEventListener('resize', t_throttle(function(){checkSize_303275023();}));
+if (typeof jQuery !== 'undefined') {
+$('#rec303275023').bind('displayChanged', function () {
+checkSize_303275023();
+});
+} else {
+var rec = document.querySelector('#rec303275023');
+if (!rec) return;
+rec.addEventListener('displayChanged', function () {
+checkSize_303275023();
+});
+}
+});
+});</script></div></footer><!--/footer--></div><!--/allrecords-->
